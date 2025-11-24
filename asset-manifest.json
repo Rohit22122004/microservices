@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/microservices/static/css/main.2b78076b.css",
+    "main.js": "/microservices/static/js/main.0b76ce46.js",
+    "index.html": "/microservices/index.html",
+    "main.2b78076b.css.map": "/microservices/static/css/main.2b78076b.css.map",
+    "main.0b76ce46.js.map": "/microservices/static/js/main.0b76ce46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b78076b.css",
+    "static/js/main.0b76ce46.js"
+  ]
+}

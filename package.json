@@ -2,6 +2,7 @@
   "name": "ecommerce-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Rohit22122004.github.io/microservices",
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@react-spring/three": "^9.7.3",
@@ -38,7 +39,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "serve -s build"
+    "serve": "serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

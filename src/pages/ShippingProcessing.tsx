@@ -13,7 +13,13 @@ const ShippingProcessing: React.FC = () => {
   const [userIdInput, setUserIdInput] = useState<string>(String(initialUserId || ''));
   const [hasStarted, setHasStarted] = useState<boolean>(Boolean(initialUserId));
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+
+// Use it somewhere:
+if (loading) {
+  console.log("Loading...");
+}
+
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
